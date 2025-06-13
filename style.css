@@ -51,7 +51,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 5vw;
+    font-size: 3vw;
 }
 section.normal{
     background-color: white;
@@ -60,13 +60,28 @@ section.normal{
 section.imagem{
     background-color: rgb(182, 179, 179);
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.658);
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 section.imagem >p{
     display: inline-block;
-    padding: 5px;
+    padding: 3px;
     background-color: rgba(0, 0, 0, 0.445);
-    width: 400px;
+    width:9em;
+    min-width: 200px;
+    text-shadow: 1px 1px 0px black;
+}
+section#img01{
+background-image:url(imagens/close-de-araras.jpg);
+background-position:left top;
+}
+section#img02{
+background-image:url(imagens/meu-esconderijo.jpg) ;
+}
+section#img03{
+background-image:url(imagens/arara-azul-em-uma-palmeira-no-habitat-natural.jpg) ;
 }
 footer{
     background-color: rgba(0, 0, 0, 0.932);
